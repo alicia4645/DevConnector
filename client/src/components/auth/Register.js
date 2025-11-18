@@ -20,7 +20,6 @@ const Register = () => {
         }else{
             console.log(formData);
         }
-
     }
 
     return (
@@ -84,7 +83,7 @@ const Register = () => {
                 Already have an account? <Link to="/login">Sign In</Link>
             </p>
         </>
-  )
+    )
 }
 
 export default Register;

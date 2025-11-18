@@ -14,7 +14,6 @@ const Login = () => {
     const onSubmit = e => {
         e.preventDefault();
         console.log('logged in')
-
     }
 
     return (
@@ -52,7 +51,7 @@ const Login = () => {
                 Need to create an account? <Link to="/Register">Sign Up</Link>
             </p>
         </>
-  )
+    )
 }
 
 export default Login;
